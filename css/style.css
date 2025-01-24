@@ -1,0 +1,736 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Pirata One", serif;
+    
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "REM", serif;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+.header .icon-font{
+    font-size: 8px;
+    color: aliceblue;
+}
+a:hover{
+    text-decoration: none;
+}
+/* header start */
+.header{
+    width: 100%;
+    padding: 80px 0px 0px;
+     background: url(../images/img.background.01png.png) top center no-repeat;
+    background-size: cover;
+}
+.header .header-left{
+    width: 100%;
+    text-align: center;
+}
+.header .header-left .iner-header .menu{
+    display: block;
+}
+.header .header-left .iner-header .menu .nav-item{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 50px;
+}
+.header .header-left .iner-header .menu .nav-item .nav-link{
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(175, 182, 187);
+}
+.header .header-left .iner-header .menu .nav-item .active{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "REM", serif;
+    color: #000;
+}
+.header .header-left .iner-header .menu .nav-item .btn{
+    padding: 10px 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    background: #7d7979;
+    border: 1px solid #7d7979;
+    transition: 1s;
+}
+.header .header-left .iner-header .menu .nav-item .btn:hover{
+    cursor: pointer;
+    color: #000;
+    background: transparent;
+}
+.header .header-left .header-right{
+    padding: 100px 0px 60px;
+}
+.header .header-left .header-right h5{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    font-family: "REM", serif;
+}
+.header .header-left .header-right .icon-img{
+    width: 4px;
+    margin: 10px 0px;
+}
+.header .header-left .header-right h1{
+    font-size: 70px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    font-family: "Pirata One", serif;
+}
+.header .header-left .header-right p{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin: 60px 0px 0px 0px;
+}
+.header .header-left .header-right .btn{
+    margin: 40px 0px 0px 0px;
+    padding: 10px 35px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "REM", serif;
+    transition: 1s;
+}
+.header .header-left .header-right .btn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid rgb(151, 108, 108);
+    color: #000;
+}
+.avater .icon-img{
+    display: block;
+    text-align: left;
+    width: 10%;
+}
+.header-bootom h3{
+    text-align: right;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2em;
+    font-family: "REM", serif;
+    text-transform: uppercase;
+    margin: 0px;
+}
+/* header end */
+/* banner start */
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #000;
+    margin: 110px 0px;
+}
+.banner .iner-banner h3{
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1.2em;
+    font-family: "REM", serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+.banner .iner-banner h5{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2em;
+    font-family: "REM", serif;
+    text-transform: uppercase;
+    margin: 20px 0px 0px 0px;
+    color: #fff;
+}
+.banner .iner-banner p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #fff;
+}
+.banner .iner-banner h4{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.2em;
+    font-family: "REM", serif;
+    text-transform: uppercase;
+    margin: 20px 0px 0px 0px;
+    color: #fff;
+}
+.banner .iner-banner .logo-img{
+    width: 8%;
+    margin: 0px 0px 0px 10px;
+}
+.logo-img{
+    width: 8%;
+    margin: 0px 0px 0px 10px;
+}
+/* banner end */
+/* feature start */
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature .icon-img{
+
+}
+.feature .iner-feature{
+    display: block;
+    margin: 0px 0px 0px 80px;
+}
+.feature .iner-feature h1{
+    font-size: 60px;
+   font-weight: 500;
+   line-height: 1.2em;
+    text-transform: uppercase;
+    font-family: "Pirata One", serif;
+}
+.feature .iner-feature p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+.feature .iner-feature .btn{
+    margin: 35px 0px 0px;
+    padding: 10px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "REM", serif;
+    background: transparent;
+    border: 3px solid black;
+    color: #000;
+    transition: 1s;
+}
+/* feature end */
+/* focus start */
+.focus{
+    width: 100%;
+    padding: 90px 0px;
+}
+.focus .iner-focus h1{
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 1.2em;;
+     text-transform: uppercase;
+     font-family: "Pirata One", serif;
+}
+.focus h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0px 10px 0px;
+    line-height: 1.2em;
+    font-family: "REM", serif;
+    text-transform: uppercase;
+}
+.focus .focus-left h5{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: uppercase;
+}
+.focus .focus-left p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+.focus .focus-left .aro-img{
+    width: 12%;
+    margin: 0px 0px 15px 0px;
+}
+.focus .focus-left .icon-img{
+    width: 40%;
+    padding: 130px 0px 0px ;
+}
+/* focus end */
+/* consecter start */
+.consecter{
+    width: 100%;
+    padding: 80px 0px;
+}
+.consecter .iner-consecter{
+  
+}
+.consecter .iner-consecter .iner{
+    background-color: rgb(231, 218, 218);
+}
+.consecter .iner-consecter .iner h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    margin: 70px 0px 6px;
+}
+.consecter .iner-consecter .iner h5{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    font-family: "REM", serif;
+    color: #8b8585;
+    margin: 0px 18px 0px 0px;
+}
+.consecter .iner-consecter .iner h6{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    font-family: "REM", serif;
+    border: 2px soldi;
+    margin: 160px 0px 0px;
+}
+.consecter .iner-consecter .iner .logo-img{
+    color: #000;
+}
+/* consecter end */
+/* become start */
+.become{
+    width: 100%;
+    padding: 80px 0px;
+}
+.become .iner-become h1{
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 1.2em;
+     text-transform: uppercase;
+     font-family: "Pirata One", serif;
+}
+.become .iner-become p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+.become .become-left .btn{
+    margin: 40px 0px 0px 0px;
+    padding: 10px 35px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "REM", serif;
+    transition: 1s;
+}
+.become .become-left .btn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid rgb(166, 152, 152);
+    color: #000;
+}
+.become .become-right{
+    display: block;
+    text-align: right;
+    margin: 40px 0px 0px 0px;
+}
+.become .become-right h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    font-family: "REM", serif;
+}
+.become .icon-img{
+    padding: 80px 0px 0px;
+}
+/* become end */
+/* fication start */
+.fication{
+    width: 100%;
+    padding: 80px 0px;
+}
+.fication .iner-fication h5{
+    border: 3px solid rgb(3, 3, 3);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 20px 0px;
+    font-family: "REM", serif;
+}
+.fication .iner-fication h5 samp{
+        font-size: 28px;
+        display: block;
+        text-align: right;
+        transform: translate(10px, -25px);
+}
+.fication .fication-left{
+    border: 3px solid rgb(3, 3, 3);
+} 
+.fication .fication-left h6{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2em;
+    font-family: "REM", serif;
+    padding: 20px 20px 0px;
+    border-bottom: 2px solid rgb(13, 6, 6);
+}
+.fication .fication-left samp{
+    font-size: 35px;
+    display: block;
+    text-align: right;
+    transform: translate(10px, -25px);
+}
+.fication .fication-left p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7em;
+    padding: 15px;
+}
+/* fication end */
+/* creative start */
+.creative{
+    width: 100%;
+    padding: 80px 0px;
+}
+.creative .iner-creative {
+    text-align: center;
+    background-color: rgb(235, 231, 231);
+    border: 3px solid black;
+    box-shadow: 5px 7px 8px black;
+}
+.creative .iner-creative .logo-img{
+    width: 15%;
+    padding: 20px 0px;
+}
+.creative .iner-creative h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2em;
+    font-family: "REM", serif;
+}
+.creative .iner-creative h6{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2em;
+    font-family: "REM", serif;
+}
+.creative .iner-creative p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.7em;
+    padding: 0px 0px 20px;
+}
+/* creative end */
+/* newsleater start */
+.newsleater{
+    width: 100%;
+    padding: 80px 0px;
+    text-align: center;
+}
+.newsleater h1{
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 1.2em;
+     text-transform: uppercase;
+     font-family: "Pirata One", serif;
+}
+.newsleater .iner-newsleater{
+    display: block;
+    text-align: center;
+    width: auto;
+    margin: 30px 0px;
+    width: 45%;
+    margin: 0px 0px 0px 360px;
+}
+.newsleater .iner-newsleater .form-control{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "REM", serif;
+    text-transform: capitalize;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 2px solid rgb(180, 174, 174);
+    background-color: #f2eded;
+}
+.newsleater .iner-newsleater .btn{
+    margin: 40px 0px 0px 0px;
+    padding: 10px 35px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "REM", serif;
+    transition: 1s;
+}
+.newsleater .iner-newsleater .btn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid rgb(151, 108, 108);
+    color: #000;
+}
+/* newsleater end */
+/* footer start */
+.footer{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #000;
+}
+.footer .iner-footer h1{
+    font-size: 70px;
+    font-weight: 500;    
+    line-height: 1.2em;
+     text-transform: uppercase;
+     font-family: "Pirata One", serif;
+     color: #fff;
+}
+.footer .iner-footer h5{
+    text-align: right;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2em;
+    font-family: "REM", serif;
+    text-transform: capitalize;
+    color: #fff;
+}
+.footer h4{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.2em;
+    font-family: "REM", serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+.footer .footer-left{
+    padding: 20px 0px;
+    display: block;
+}
+.footer .footer-left ul{
+    display: block;
+    padding: 0px;
+}
+.footer .footer-left li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #908a8a;
+    padding: 10px 0px;
+}
+/* footer end */
+/* responsive */
+@media(min-width:320px) and (max-width:480px){
+    .container{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .header{
+        padding: 20px 0px 0px;
+    }
+    .header .header-left .iner-header .menu{
+        padding: 0px;
+    }
+    .header .header-left .iner-header .menu .nav-item .nav-link{
+        font-size: 15px;
+        padding: 6px 0px;
+    }
+    .header .header-left .iner-header .menu .nav-item .btn {
+        padding: 6px 16px;
+        font-size: 16px;
+        margin: 10px 0px 0px;
+    }
+    .header .header-left .header-right {
+        padding: 22px 0px 0px;
+    }
+    .header .header-left .header-right h5 {
+        font-size: 18px;
+    }
+    .header .header-left .header-right .icon-img {
+        width: 3px;
+    }
+    .header .header-left .header-right h1 {
+        font-size: 38px;
+    }
+    .header .header-left .header-right p {
+        font-size: 12px;
+        margin: 10px 0px 0px;
+    }
+    .header .header-left .header-right .btn{
+        font-size: 12px;
+        padding: 6px 16px;
+        margin: 18px 0px 10px;
+    }
+    .header-bootom h3 {
+        font-size: 13px;
+    }
+    .banner{
+        padding: 30px 0px;
+        margin: 30px 0px 0px;
+    }
+    .banner .iner-banner h3 {
+        font-size: 17px;
+    }
+    .banner .iner-banner h5 {
+        font-size: 14px;
+        margin: 8px 0px 0px;
+    }
+    .banner .iner-banner p {
+        font-size: 11px;
+    }
+    .banner .iner-banner h4 {
+        font-size: 13px;
+        margin: 15px 0px 18px 0px;
+    }
+    .feature{
+        padding: 30px 0px 0px;
+    }
+    .feature .iner-feature{
+        margin: 0px;
+    }
+    .feature .iner-feature h1{
+        font-size: 38px;
+        margin: 6px 0px 0px;
+    }
+    .feature .iner-feature p{
+        font-size: 10px;
+    }
+    .feature .iner-feature .btn{
+        font-size: 12px;
+        padding: 6px 16px;
+        margin: 8px 0px 0px;
+    }
+    .focus {
+        padding: 40px 0px 0px;
+    }
+    .focus .iner-focus h1 {
+        font-size: 40px;
+    }
+    .focus h3 {
+        font-size: 18px;
+        margin: 15px 0px 10px 0px;
+    }
+    .focus .focus-left h5 {
+        font-size: 15px;
+    }
+    .focus .focus-left p {
+        font-size: 12px;
+    }
+    .focus .focus-left .aro-img {
+        width: 6%;
+    }
+    .focus .focus-left .icon-img {
+        width: 7%;
+        padding: 20px 0px 0px;
+    }
+    .consecter {
+        padding: 40px 0px 0px;
+    }
+    .consecter .iner-consecter .iner h3 {
+        font-size: 11px;
+        font-weight: 500;
+        margin: 0px;
+    }
+    .consecter .iner-consecter .iner h5 {
+        font-size: 9px;
+        font-weight: 500;
+        margin: 0px;
+    }
+    .consecter .iner-consecter .iner h6 {
+        font-size: 9px;
+        margin: 20px 0px 0px;
+    }
+    .become {
+        padding: 40px 0px 0px;
+    }
+    .become .iner-become h1 {
+        font-size: 38px;
+    }
+    .become .iner-become p{
+        font-size: 10px;
+    }
+    .become .become-left .btn{
+        font-size: 12px;
+        padding: 6px 16px;
+        margin: 20px 0px 0px ;
+    }
+    .become .become-right{
+        margin: 0px;
+    }
+    .become .become-right h3{
+        font-size: 12px;
+    }
+    .become .icon-img {
+        padding: 40px 0px 0px;
+    }
+    .fication{
+        padding: 40px 0px 0px;
+    }
+    .fication .iner-fication h5 {
+        font-size: 13px;
+    }
+    .fication .iner-fication h6 {
+        font-size: 13px;
+    }
+    .fication .iner-fication h5 samp {
+        font-size: 22px;
+    }
+    .fication .fication-left samp {
+        font-size: 35px;
+        transform: translate(10px, -15px);
+    }
+    .fication .fication-left p {
+        font-size: 10px;
+    }
+    .creative {
+        padding: 40px 0px 0px;
+    }
+    .creative .iner-creative {
+        margin: 0px 0px 12px;
+    }
+    .creative .iner-creative .logo-img {
+        width: 12%;
+        padding: 10px 0px;
+    }
+    .creative .iner-creative h4 {
+        font-size: 20px;
+    }
+    .creative .iner-creative h6 {
+        font-size: 15px;
+    }
+    .creative .iner-creative p {
+        font-size: 11px;
+    }
+    .newsleater {
+        padding: 40px 0px 0px;
+    }
+    .newsleater h1{
+        font-size: 40px;
+    }
+    .newsleater .iner-newsleater {
+        margin: 0px 0px 0px 55px;
+        width: 63%;
+    }
+    .newsleater .iner-newsleater .form-control {
+        font-size: 12px;
+        padding: 5px;
+        margin: 10px 0px;
+    }
+    .newsleater .iner-newsleater .btn {
+        margin: 20px 0px;
+        padding: 6px 16px;
+        font-size: 12px;
+    }
+    .footer{
+        padding: 40px 0px;
+    }
+    .footer .iner-footer h1 {
+        font-size: 38px;
+    }
+    .footer .iner-footer h5 {
+        font-size: 10px;
+    }
+    .footer h4 {
+        margin: 20px 0px 0px;
+        font-size: 15px
+    }
+    .footer .footer-left {
+        padding: 20px 0px 0px;
+    }
+    .footer .footer-left li {
+        padding: 4px 0px 0px;
+        font-size: 13px;
+    }
+    
+}
